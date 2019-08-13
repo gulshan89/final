@@ -1,0 +1,43 @@
+/*header*/
+#header {
+  color: black; }
+  #header .icon1 {
+    padding: 0 30px;
+    cursor: pointer; }
+    #header .icon1:hover {
+      color: blue; }
+  #header .icon2 {
+    cursor: pointer; }
+    #header .icon2:hover {
+      color: blue; }
+  #header .globe {
+    padding: 0 5px;
+    color: green;
+    font-size: 55px;
+    cursor: pointer; }
+  #header .mainNav li {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 20px;
+    margin: auto; }
+    #header .mainNav li a {
+      color: black;
+      position: relative; }
+      #header .mainNav li a::after {
+        content: '';
+        transition: .2s ease-in-out;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 2px;
+        background: green;
+        width: 0;
+        margin: auto; }
+      #header .mainNav li a:hover::after {
+        width: 60px;
+        margin: auto; }
+
+/*header end */
+
+/*# sourceMappingURL=style.css.map */
